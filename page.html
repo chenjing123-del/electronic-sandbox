@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Sandbox</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Online Sandbox</h1>
+    <div class="container">
+        <!-- 左侧物件列表 -->
+        <div class="sidebar">
+            <div class="item" draggable="true" data-type="tree">🌳 Tree</div>
+            <div class="item" draggable="true" data-type="house">🏠 House</div>
+            <div class="item" draggable="true" data-type="car">🚗 Car</div>
+            <div class="item" draggable="true" data-type="rock">🪨 Rock</div>
+        </div>
+
+        <!-- 中间沙盘区域 -->
+        <div class="sandbox" id="sandbox"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

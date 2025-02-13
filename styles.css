@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.sidebar .item {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    cursor: grab;
+    text-align: center;
+}
+
+.sandbox {
+    width: 75%;
+    height: 600px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    position: relative;
+}
+
+/* 拖拽时的样式 */
+.item.dragging {
+    opacity: 0.5;
+}
